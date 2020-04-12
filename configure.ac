@@ -39,6 +39,7 @@ AM_CONDITIONAL([DEBUG], [test x$debug = xtrue])
 
 AM_INIT_AUTOMAKE([-Wall -Werror foreign])
 AC_CONFIG_MACRO_DIR([m4])
+AM_SILENT_RULES([yes])
 LT_INIT
 
 
